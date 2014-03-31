@@ -1,0 +1,7 @@
+title: Pages Canary
+markdown: kramdown
+
+gems:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-sitemap
