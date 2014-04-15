@@ -1,7 +1,6 @@
 title: Pages Canary
 markdown: kramdown
-github: "some string"
- 
+
 gems:
   - jemoji
   - jekyll-mentions
