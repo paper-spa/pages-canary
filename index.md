@@ -4,6 +4,9 @@ title: Pages Canary
 
 Hi @pages-canary, this site is :+1:!
 
+* **Source:** {{ site.source }}
+* **Destination:** {{ site.destination }}
+
 {{ site.time }}
 
 <table>
