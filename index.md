@@ -9,6 +9,8 @@ Hi @pages-canary, this site is :+1:!
 
 {{ site.time }}
 
+Unix: {{ site.time | date: "%s" }}
+
 <table>
 {% for hash in site.github %}
 <tr>
