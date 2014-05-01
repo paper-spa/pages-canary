@@ -33,7 +33,7 @@ title: Pages Canary
   {% endfor %}
 </table>
 </td>
-{% else if hash[0] == "versions" %}
+{% elsif hash[0] == "versions" %}
 <th>{{ hash[0]}}</th>
 <td>
 <table>
