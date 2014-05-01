@@ -26,10 +26,12 @@ title: Pages Canary
 <td>
 <table>
   {% for element in hash[1] %}
-  <tr>
-    <th>&nbsp;</th>
-    <td>{{ element }}</td>
-  </tr>
+    {% for sub_hash in element %}
+      <tr>
+        <th>{{ sub_hash[0] }}</th>
+        <td>{{ sub_hash[1] }}</td>
+      </tr>
+    {% endfor %}
   {% endfor %}
 </table>
 </td>
