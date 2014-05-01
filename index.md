@@ -2,19 +2,23 @@
 title: Pages Canary
 ---
 
-Hi @pages-canary, this site is :+1:!
+
+## Build infos
 
 * **Source:** {{ site.source }}
 * **Destination:** {{ site.destination }}
+* **Build time:** {{ site.time }}
+* **Unix build time:** {{ site.time | date: "%s" }}
 
-{{ site.time }}
+## Plugins tests
 
-Unix: {{ site.time | date: "%s" }}
+* Hi @pages-canary, this site is :+1:!
+* [sitemap](sitemap.xml)
 
 <table>
 {% for hash in site.github %}
 <tr>
-{% if hash[0] == "versions" %}
+{% if hash[0] == "versions" || hash[0] == "owner_repositories" || hash[0] == "organization_members" || hash[0] == "contributors" %}
 <th>versions</th>
 <td>
 <table>
