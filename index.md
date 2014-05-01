@@ -21,7 +21,7 @@ title: Pages Canary
 <table>
 {% for hash in site.github %}
 <tr>
-{% if hash[0] == "owner_repositories" || hash[0] == "organization_members" || hash[0] == "contributors" %}
+{% if hash[0] == "owner_repositories" or hash[0] == "organization_members" or hash[0] == "contributors" %}
 <th>{{ hash[0]}}</th>
 <td>
 <table>
