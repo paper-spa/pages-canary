@@ -17,6 +17,6 @@ layout: default
 * Hi @pages-canary, this site is :+1:!
 * [sitemap](sitemap.xml)
 
-## GitHub Namespace
+## Site Namespace
 
 <div id="output">&nbsp;</div>
