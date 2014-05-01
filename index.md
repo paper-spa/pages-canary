@@ -25,15 +25,15 @@ title: Pages Canary
 <th>{{ hash[0]}}</th>
 <td>
   {% for element in hash[1] %}
-    {% for sub_hash in element %}
     <table>
+    {% for sub_hash in element %}
       <tr>
         <th>{{ sub_hash[0] }}</th>
         <td>{{ sub_hash[1] }}</td>
       </tr>
+    {% endfor %}
     </table>
     <hr />
-    {% endfor %}
   {% endfor %}
 </td>
 {% elsif hash[0] == "versions" %}
