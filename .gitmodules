@@ -1,0 +1,3 @@
+[submodule "vendor/renderjson"]
+	path = vendor/renderjson
+	url = https://github.com/caldwell/renderjson

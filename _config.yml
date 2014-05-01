@@ -5,4 +5,8 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-sitemap
-  
+
+# dummy content for dev
+github:
+  foo: bar
+  baz: [1,2,3]
