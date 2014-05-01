@@ -22,9 +22,9 @@
   <body>
     {{ content }}
     <script type="text/javascript" src="vendor/renderjson/renderjson.js"></script>
-    <script>var github = {{ site.github | jsonify }};</script>
+    <script>var site = {{ site | jsonify }};</script>
     <script>
-      document.getElementById("output").appendChild(renderjson.set_show_to_level(2)(github));
+      document.getElementById("output").appendChild(renderjson.set_show_to_level(2)(site.github));
     </script>
   </body>
 </html>
