@@ -24,16 +24,17 @@ title: Pages Canary
 {% if hash[0] == "owner_repositories" or hash[0] == "organization_members" or hash[0] == "contributors" %}
 <th>{{ hash[0]}}</th>
 <td>
-<table>
   {% for element in hash[1] %}
     {% for sub_hash in element %}
+    <table>
       <tr>
         <th>{{ sub_hash[0] }}</th>
         <td>{{ sub_hash[1] }}</td>
       </tr>
+    </table>
+    <hr />
     {% endfor %}
   {% endfor %}
-</table>
 </td>
 {% elsif hash[0] == "versions" %}
 <th>{{ hash[0]}}</th>
