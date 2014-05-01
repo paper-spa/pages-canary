@@ -20,3 +20,5 @@ layout: default
 ## GitHub Namespace
 
 <div id="output">&nbsp;</div>
+
+*Pro-tip: The entire Jekyll `site` object is available via Javascript console.*
