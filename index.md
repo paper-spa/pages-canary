@@ -17,7 +17,6 @@ title: Pages Canary
 * [sitemap](sitemap.xml)
 
 ## GitHub Namespace
-{{ site.github }}
 
 <table>
 {% for hash in site.github %}
