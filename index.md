@@ -2,6 +2,7 @@
 title: Pages Canary
 ---
 
+# {{ page.title }}
 
 ## Build infos
 
@@ -10,10 +11,12 @@ title: Pages Canary
 * **Build time:** {{ site.time }}
 * **Unix build time:** {{ site.time | date: "%s" }}
 
-## Plugins tests
+## Plugins
 
 * Hi @pages-canary, this site is :+1:!
 * [sitemap](sitemap.xml)
+
+## GitHub Namespace
 
 <table>
 {% for hash in site.github %}
