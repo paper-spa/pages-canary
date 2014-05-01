@@ -22,8 +22,20 @@ title: Pages Canary
 <table>
 {% for hash in site.github %}
 <tr>
-{% if hash[0] == "versions" || hash[0] == "owner_repositories" || hash[0] == "organization_members" || hash[0] == "contributors" %}
-<th>versions</th>
+{% if hash[0] == "owner_repositories" || hash[0] == "organization_members" || hash[0] == "contributors" %}
+<th>{{ hash[0]}}</th>
+<td>
+<table>
+  {% for element in hash[1] %}
+  <tr>
+    <th>&nbsp;</th>
+    <td>{{ element }}</td>
+  </tr>
+  {% endfor %}
+</table>
+</td>
+{% else if hash[0] == "versions" %}
+<th>{{ hash[0]}}</th>
 <td>
 <table>
   {% for version_hash in hash[1] %}
