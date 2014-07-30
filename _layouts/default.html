@@ -2,28 +2,12 @@
   <head>
     <meta charset='utf-8'>
     <title>{{ page.title }}</title>
-    <style>
-    .renderjson a              { text-decoration: none; }
-    .renderjson .disclosure    { color: crimson;
-                                 font-size: 150%; }
-    .renderjson .syntax        { color: grey; }
-    .renderjson .string        { color: red; }
-    .renderjson .number        { color: cyan; }
-    .renderjson .boolean       { color: plum; }
-    .renderjson .key           { color: lightblue; }
-    .renderjson .keyword       { color: lightgoldenrodyellow; }
-    .renderjson .object.syntax { color: lightseagreen; }
-    .renderjson .array.syntax  { color: lightsalmon; }
-    pre { background: #000; padding: 15px; width: 75%; }
-    body { padding: 25px; }
-    </style>
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
     {{ content }}
     <script type="text/javascript" src="vendor/renderjson/renderjson.js"></script>
     <script>var site = {{ site | jsonify }};</script>
-    <script>
-      document.getElementById("output").appendChild(renderjson.set_show_to_level(2)(site.github));
-    </script>
+    <script src="assets/js.js"></script>
   </body>
 </html>
