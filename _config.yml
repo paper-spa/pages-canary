@@ -5,6 +5,5 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 foo: bar
