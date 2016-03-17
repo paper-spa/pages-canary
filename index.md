@@ -1,6 +1,7 @@
 ---
 title: Pages Canary
 layout: default
+redirect_from: /redirect/
 ---
 
 # {{ page.title }}
