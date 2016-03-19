@@ -1,8 +1,12 @@
 title: Pages Canary
 markdown: kramdown
 
+repository: github/pages-canary
+
 gems:
+  - jekyll-github-metadata
   - jemoji
+  - jekyll-coffeescript
   - jekyll-mentions
   - jekyll-sitemap
 

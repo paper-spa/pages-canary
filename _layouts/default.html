@@ -7,7 +7,20 @@
   <body>
     {{ content }}
     <script type="text/javascript" src="vendor/renderjson/renderjson.js"></script>
-    <script>var site = {{ site | jsonify }};</script>
-    <script src="assets/js.js"></script>
+    <script type="text/javascript">
+      var site;
+
+      var request = new XMLHttpRequest();
+      request.onload = reqListener;
+      request.open("get", "site.json", true);
+      request.send();
+
+      function reqListener(e) {
+        site = JSON.parse(this.responseText);
+        document.getElementById("output").appendChild(
+          renderjson.set_show_to_level(2)(site.github)
+        );
+      }
+    </script>
   </body>
 </html>

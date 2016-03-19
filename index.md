@@ -8,8 +8,8 @@ redirect_from: /redirect/
 
 ## Build infos
 
-* **Source:** {{ site.source }}
-* **Destination:** {{ site.destination }}
+* **Source:** `{{ site.source }}`
+* **Destination:** `{{ site.destination }}`
 * **Build time:** {{ site.time }}
 * **Unix build time:** {{ site.time | date: "%s" }}
 
