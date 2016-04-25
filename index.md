@@ -18,10 +18,6 @@ redirect_from: /redirect/
 * Hi @pages-canary, this site is :+1:!
 * [sitemap](sitemap.xml)
 
-## Features
-
-<div id="features">&nbsp;</div>
-
 ## GitHub Namespace
 
 <div id="output">&nbsp;</div>
