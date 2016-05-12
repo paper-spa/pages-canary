@@ -16,7 +16,7 @@ redirect_from: /redirect/
 ## Plugins
 
 * Hi @pages-canary, this site is :+1:!
-* [sitemap](sitemap.xml)
+* [`sitemap.xml`](sitemap.xml)
 
 ## GitHub Namespace
 
