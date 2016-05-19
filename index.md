@@ -12,6 +12,7 @@ redirect_from: /redirect/
 * **Destination:** `{{ site.destination }}`
 * **Build time:** {{ site.time }}
 * **Unix build time:** {{ site.time | date: "%s" }}
+* Jekyll build version: {{ jekyll.version }}
 
 ## Plugins
 
