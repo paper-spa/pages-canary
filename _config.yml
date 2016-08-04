@@ -1,5 +1,5 @@
 title: Pages Canary
-markdown: kramdown
+description: The literal canary in the coal mine, at least when it comes to GitHub Pages
 
 repository: github/pages-canary
 
@@ -9,5 +9,8 @@ gems:
   - jekyll-coffeescript
   - jekyll-mentions
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 foo: bar
+
+theme: minima
