@@ -3,6 +3,10 @@ description: The literal canary in the coal mine, at least when it comes to GitH
 
 repository: github/pages-canary
 
+# TEST
+url: "http://example.com"
+baseurl: "/something-random"
+
 gems:
   - jekyll-github-metadata
   - jemoji
