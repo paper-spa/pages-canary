@@ -14,6 +14,11 @@ redirect_from: /redirect/
 * **Unix build time:** {{ site.time | date: "%s" }}
 * **Jekyll build version**: {{ jekyll.version }}
 
+## URL infos
+
+* **URL:** `{{ site.url }}`
+* **Baseurl:** `site.baseurl }}`
+
 ## Plugins
 
 * Hi @pages-canary, this site is :+1:!
