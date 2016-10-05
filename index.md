@@ -17,7 +17,7 @@ redirect_from: /redirect/
 ## URL infos
 
 * **URL:** `{{ site.url }}`
-* **Baseurl:** `site.baseurl }}`
+* **Baseurl:** `{{ site.baseurl }}`
 
 ## Plugins
 
