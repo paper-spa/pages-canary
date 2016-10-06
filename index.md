@@ -13,6 +13,7 @@ redirect_from: /redirect/
 * **Build time:** {{ site.time }}
 * **Unix build time:** {{ site.time | date: "%s" }}
 * **Jekyll build version**: {{ jekyll.version }}
+* **Jekyll environment**: {{ jekyll.environment }}
 
 ## URL infos
 
