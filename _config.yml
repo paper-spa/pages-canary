@@ -14,3 +14,11 @@ gems:
 foo: bar
 
 theme: minima
+
+exclude:
+  - vendor/renderjson/README.md
+  - vendor/renderjson/test.html
+  - script/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
