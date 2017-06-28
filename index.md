@@ -1,10 +1,8 @@
 ---
-title: Pages Canary
-layout: default
 redirect_from: /redirect/
 ---
 
-# {{ page.title }}
+# Pages Canary
 
 ## Build infos
 
@@ -24,6 +22,7 @@ redirect_from: /redirect/
 
 * Hi @pages-canary, this site is :+1:!
 * [`sitemap.xml`](sitemap.xml)
+* [Relative link](another-page.md)
 
 ## GitHub Namespace
 
