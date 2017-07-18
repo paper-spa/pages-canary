@@ -7,5 +7,5 @@ reqListener = (e) ->
 
 request = new XMLHttpRequest
 request.onload = reqListener
-request.open 'get', 'site.json', true
+request.open 'get', "site.json?#{(new Date).getTime()}", true
 request.send()
