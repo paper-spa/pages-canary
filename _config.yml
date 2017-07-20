@@ -1,6 +1,3 @@
-title: Pages Canary
-description: The literal canary in the coal mine, at least when it comes to GitHub Pages
-
 repository: github/pages-canary
 
 gems:
@@ -10,6 +7,7 @@ gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll_test_plugin_malicious
 
 foo: bar
 
