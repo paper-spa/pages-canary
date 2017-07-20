@@ -28,4 +28,4 @@ redirect_from: /redirect/
 
 <div id="output">&nbsp;</div>
 
-*Pro-tip: The entire Jekyll `site` object is available via Javascript console.*
+*Pro-tip: The entire Jekyll `site` object is available as [`site.json`](site.json)*
