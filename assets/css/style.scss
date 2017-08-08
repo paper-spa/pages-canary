@@ -8,37 +8,37 @@
     text-decoration: none
   }
   .disclosure {
-    color: crimson
-    font-size: 150%
+    color: crimson;
+    font-size: 150%;
   }
   .syntax {
-    color: grey
+    color: grey;
   }
   .string {
-    color: red
+    color: red;
   }
   .number {
-    color: cyan
+    color: cyan;
   }
   .boolean {
-    color: plum
+    color: plum;
   }
   .key {
-    color: lightblue
+    color: lightblue;
   }
   .keyword {
-    color: lightgoldenrodyellow
+    color: lightgoldenrodyellow;
   }
   .object.syntax {
-    color: lightseagreen
+    color: lightseagreen;
   }
   .array.syntax {
-    color: lightsalmon
+    color: lightsalmon;
   }
 }
 
 pre {
-  background: #000
-  padding: 15px
-  width: 100%
+  background: #000;
+  padding: 15px;
+  width: 100%;
 }
