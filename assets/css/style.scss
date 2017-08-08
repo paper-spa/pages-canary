@@ -3,30 +3,42 @@
 
 @import "{{ site.theme }}"
 
-.renderjson
-  a
+.renderjson {
+  a {
     text-decoration: none
-  .disclosure
+  }
+  .disclosure {
     color: crimson
     font-size: 150%
-  .syntax
+  }
+  .syntax {
     color: grey
-  .string
+  }
+  .string {
     color: red
-  .number
+  }
+  .number {
     color: cyan
-  .boolean
+  }
+  .boolean {
     color: plum
-  .key
+  }
+  .key {
     color: lightblue
-  .keyword
+  }
+  .keyword {
     color: lightgoldenrodyellow
-  .object.syntax
+  }
+  .object.syntax {
     color: lightseagreen
-  .array.syntax
+  }
+  .array.syntax {
     color: lightsalmon
+  }
+}
 
-pre
+pre {
   background: #000
   padding: 15px
   width: 100%
+}
