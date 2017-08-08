@@ -2,8 +2,6 @@
 redirect_from: /redirect/
 ---
 
-# Pages Canary
-
 ## Build infos
 
 * **Source:** `{{ site.source }}`
