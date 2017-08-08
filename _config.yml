@@ -1,5 +1,3 @@
-repository: github/pages-canary
-
 gems:
   - jekyll-github-metadata
   - jemoji
@@ -10,8 +8,7 @@ gems:
   - jekyll_test_plugin_malicious
 
 foo: bar
-
-theme: minima
+title: Pages Canary
 
 exclude:
   - vendor/renderjson/README.md
