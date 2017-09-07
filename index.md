@@ -13,7 +13,8 @@ redirect_from: /redirect/
 
 ## URL infos
 
-* **URL:** `{{ site.url }}`
+* `site.url`: `{{ site.url }}` 
+* `site.github.url`: `{{ site.github.url }}` 
 * **Baseurl:** `{{ site.baseurl }}`
 
 ## Plugins
