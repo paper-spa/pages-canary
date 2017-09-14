@@ -3,6 +3,7 @@ gems:
   - jemoji
   - jekyll-coffeescript
   - jekyll-mentions
+  - jekyll-octicons
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll_test_plugin_malicious
