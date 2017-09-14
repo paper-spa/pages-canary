@@ -22,7 +22,8 @@ redirect_from: /redirect/
 * Hi @pages-canary, this site is :+1:!
 * [`sitemap.xml`](sitemap.xml)
 * [Relative link](another-page.md)
-* {%- octicon alert height:32 class:"right left" aria-label:hi -%}
+
+{% octicon zap height:32 class:"right left" aria-label:hi %}
 
 ## GitHub Namespace
 
