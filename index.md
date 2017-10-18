@@ -25,6 +25,10 @@ redirect_from: /redirect/
 
 {% octicon zap height:32 class:"right left" aria-label:hi %}
 
+```ruby
+puts "Hello, world!"
+```
+
 ## GitHub Namespace
 
 <div id="output">&nbsp;</div>
