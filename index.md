@@ -13,9 +13,13 @@ redirect_from: /redirect/
 
 ## URL infos
 
-* `site.url`: `{{ site.url }}` 
-* `site.github.url`: `{{ site.github.url }}` 
+* `site.url`: `{{ site.url }}`
+* `site.github.url`: `{{ site.github.url }}`
 * **Baseurl:** `{{ site.baseurl }}`
+
+* [ ] Complete task lists
+* [ ] Do they work?
+* [x] Would be so cool!
 
 ## Plugins
 
